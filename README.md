@@ -10,7 +10,7 @@ This plug-in allows to export article meta-data to Copernicus citation index in 
 
 # Note
 
-This plug-in supports only PHP version 7.4.
+This plug-in supports only PHP version 8.0.
 
 # Troubleshooting
 
