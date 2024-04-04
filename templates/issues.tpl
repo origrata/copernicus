@@ -40,6 +40,7 @@
 		<td>{$issue->getNumArticles()|escape}</td>
 		<td align="right"><a href="{plugin_url path='validateIssue'}/{$issue->getId()}" class="pkp_button export">{translate key="plugins.importexport.copernicus.validate"}</a></td>
 		<td align="right"><a href="{plugin_url path='exportIssue'}/{$issue->getId()}" class="pkp_button export">{translate key="common.export"}</a></td>
+	</tr>
 	<tr>
 		<td colspan="4" class="{if $issues->eof()}end{/if}separator">&nbsp;</td>
 	</tr>
